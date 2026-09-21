@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #17213b;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 550px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.lights {
+  background: #222e4b;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #30405f;
+  padding: 18px;
+  margin: 12px 0;
+  border-radius: 8px;
+}
+
+.room input {
+  width: 22px;
+  height: 22px;
+}
+
+#status {
+  font-size: 14px;
+  opacity: .8;
+}
